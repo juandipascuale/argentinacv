@@ -1,3 +1,10 @@
+.main-container {
+   display: flex;
+   width: 900px;
+   margin: auto;
+
+}
+
 /*......GENERAL.....*/
 ul {
    list-style-type: none;
@@ -7,6 +14,8 @@ ul {
 
 aside {
    background-color: #348888;
+   width: 30%;
+   margin: 1ex;
 }
 
 aside * {
@@ -60,4 +69,17 @@ article h4 {
 
  article ul {
    list-style-type: square;
+ }
+
+
+ .referencia {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .referencia article {
+   width: 40%;
+
+
+
  }
