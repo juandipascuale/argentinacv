@@ -1,0 +1,24 @@
+ /*......estructuras de pagina */
+
+aside {
+   background-color: #647087;
+}
+
+aside * {
+   color: white;
+}
+
+aside h2 {
+   text-transform: uppercase;
+   letter-spacing: 5px;
+}
+
+aside section h2:first-child {
+   border-bottom: 2px solid white
+
+}
+
+#figure1 img {
+   border-radius: 50%;
+}
+ 
