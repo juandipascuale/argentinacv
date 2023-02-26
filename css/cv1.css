@@ -1,7 +1,12 @@
- /*......estructuras de pagina */
+/*......GENERAL.....*/
+ul {
+   list-style-type: none;
+}
+
+/*......ASIDE...... */
 
 aside {
-   background-color: #647087;
+   background-color: #348888;
 }
 
 aside * {
@@ -18,7 +23,41 @@ aside section h2:first-child {
 
 }
 
-#figure1 img {
+#figure1 img{
    border-radius: 50%;
 }
  
+/*......MAIN...... */
+
+main section >h2 {
+   text-transform: uppercase;
+   letter-spacing: 5px;
+}
+
+.hero {
+   background-color: #FA7F08;
+}
+
+.hero h2 {
+   color: white;
+   border-top: 2px solid white;
+   text-transform: none;
+   letter-spacing: normal;
+}
+
+.about-me{
+   background-color: #22BABB;
+}
+
+.about-me h2 {
+   background-color: white;
+}
+ 
+article h3, 
+article h4 {
+   font-weight: bold;
+}
+
+ article ul {
+   list-style-type: square;
+ }
