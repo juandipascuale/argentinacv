@@ -1,17 +1,3 @@
-.cabecera {
-   width: 900px;
-   height: 180px;
-   margin: auto;
-   background-color: #e4e4e4;
-   background-image: url(vendor/cabecera.png);
-}
-
-.main-container {
-   display: flex;
-   width: 900px;
-   margin: auto;
-}
-
 /*......GENERAL.....*/
 ul {
    list-style-type: none;
@@ -22,6 +8,41 @@ h1, h2 {
    text-transform: uppercase;
 }
 
+/* ........cabecera .......*/
+
+.cabecera {
+   width: 900px;
+   height: 180px;
+   margin: auto;
+   background-color: #e4e4e4;
+}
+ .cabecera header {
+   width: 900px;
+   height: 180px;
+   margin: auto;
+   background-image: url(https://centrocreser.com.ar/wp-content/uploads/2022/03/OSTEOPATIA-CRESER-3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.cabecera h1{
+   position: relative;
+   width: 50px;
+   top: 40px;
+   left: 1em;
+   font-size: 2.5em;
+
+
+}
+
+
+/*.....contenedor de aside y main...*/
+
+.main-container {
+   display: flex;
+   width: 900px;
+   margin: auto;
+}
 /*......ASIDE...... */
 
 aside {
