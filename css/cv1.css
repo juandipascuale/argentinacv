@@ -3,8 +3,7 @@
    height: 180px;
    margin: auto;
    background-color: #e4e4e4;
-   background-image: url(https://centrocreser.com.ar/wp-content/uploads/2021/12/NEURO-REHABILITACION.jpg);
-
+   background-image: url(vendor/cabecera.png);
 }
 
 .main-container {
