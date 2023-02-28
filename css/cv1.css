@@ -1,13 +1,26 @@
+.cabecera {
+   width: 900px;
+   height: 180px;
+   margin: auto;
+   background-color: #e4e4e4;
+   background-image: url(https://centrocreser.com.ar/wp-content/uploads/2021/12/NEURO-REHABILITACION.jpg);
+
+}
+
 .main-container {
    display: flex;
    width: 900px;
    margin: auto;
-
 }
 
 /*......GENERAL.....*/
 ul {
    list-style-type: none;
+   text-align: left;
+}
+
+h1, h2 {
+   text-transform: uppercase;
 }
 
 /*......ASIDE...... */
@@ -15,16 +28,20 @@ ul {
 aside {
    background-color: #348888;
    width: 30%;
-   margin: 1ex;
+   margin-right: 3px;
+   padding: 1%;
 }
 
 aside * {
    color: white;
+   
 }
 
 aside h2 {
-   text-transform: uppercase;
-   letter-spacing: 5px;
+   letter-spacing: 6px;
+   font-size: 20px;
+   text-align: center;
+   margin: 10%;
 }
 
 aside section h2:first-child {
@@ -34,9 +51,28 @@ aside section h2:first-child {
 
 #figure1 img{
    border-radius: 50%;
+   border: solid 2px rgb(255, 255, 255);
+}
+
+#figure1 figcaption {
+      text-align: center;
+      font-size: 1.5em;
+}
+
+aside ul {
+   position: relative;
+   right: 2em;
 }
  
+aside ul li{
+   text-align: right;
+}
+
 /*......MAIN...... */
+
+main {
+   background-color: #e1e1e1;
+}
 
 main section >h2 {
    text-transform: uppercase;
@@ -45,23 +81,47 @@ main section >h2 {
 
 .hero {
    background-color: #FA7F08;
+   padding: 5% 0; 
+   text-align: center;
 }
 
 .hero h2 {
    color: white;
    border-top: 2px solid white;
-   text-transform: none;
-   letter-spacing: normal;
+   letter-spacing: 15px;
 }
 
 .about-me{
-   background-color: #22BABB;
 }
 
-.about-me h2 {
-   background-color: white;
+main h2 {
+   margin-left: 2%;
 }
- 
+
+main h3 {
+   margin-left: 2%;
+}
+
+main h4 {
+   margin-left: 2%;
+}
+
+main h5 {
+   margin-left: 2%;
+}
+
+.about-me p {
+   background-color: #22BABB;
+   line-height: 2em;
+   padding: 15px;
+}
+
+main p{
+   background-color: #22BABB;
+   line-height: 2em;
+   padding: 15px;
+}
+
 article h3, 
 article h4 {
    font-weight: bold;
@@ -75,11 +135,67 @@ article h4 {
  .referencia {
    display: flex;
    flex-wrap: wrap;
+   background-color: #22BABB;
+   border: solid 2px black;
+   
+
  }
 
  .referencia article {
    width: 40%;
+   text-align: center;
+   margin: auto;
+   
+}
 
+.referencia article img {
+   border-radius: 50%;
+   border: solid 2px rgb(255, 255, 255);
 
+   
+}
 
- }
+.referencia article figcaption {
+   text-align: ;
+   background-color: #dd9696;
+   border-bottom: #000000 solid;
+}
+
+.referencia article span {
+   text-transform: uppercase;
+   
+}
+
+dt,
+dd {
+   border-bottom: 1px solid rgb(255, 255, 255);
+   line-height: 1.5em;
+}
+
+dl {
+   display: flex;
+   flex-wrap: wrap ;
+}
+dd, dt {
+  flex-basis: 50%;
+  margin: 0;
+}
+
+dt{
+   font-weight: bold;
+}
+
+.fa-brands {
+   font-size: 2em;
+   color: #e4e4e4;
+   padding: 9px;
+}
+
+meter {
+   height: 20px;
+   margin-left: 3%;
+   margin-top: 5%;
+   filter: grayscale();
+   filter: ;
+  
+}
