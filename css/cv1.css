@@ -1,9 +1,12 @@
 /*......GENERAL.....*/
+body {
+   position: relative;
+   margin: 0px;
+}
 ul {
    list-style-type: none;
    text-align: left;
 }
-
 
 h1, h2 {
    text-transform: uppercase;
@@ -12,18 +15,26 @@ h1, h2 {
 /* ........cabecera .......*/
    
 .cabecera {
+   position: relative;
+   margin-top: 0%;
    width: 900px;
    height: 190px;
-   margin: auto;
+   margin-left: auto;
+   margin-right: auto;
    background-color: #e4e4e4;
 }
+
  .cabecera header {
+   position: absolute;
+   top: 0px;
+   margin-top: 0%;
    width: 900px;
-   height: 180px;
+   height: 190px;
    background-image: url(https://centrocreser.com.ar/wp-content/uploads/2022/03/OSTEOPATIA-CRESER-3.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   padding-bottom: 8px;
+   padding-top: px;
+   padding-bottom: px;
 }
 
 .cabecera h1{
@@ -42,8 +53,7 @@ h1, h2 {
    display: flex;
    width: 900px;
    margin: auto;
-   font-family: sans-serif;
-   
+   font-family: sans-serif; 
 }
 /*......ASIDE...... */
 
@@ -55,8 +65,7 @@ aside {
 }
 
 aside * {
-   color: white;
-   
+   color: white; 
 }
 
 aside h2 {
@@ -68,7 +77,6 @@ aside h2 {
 
 aside section h2:first-child {
    border-bottom: 2px solid white
-
 }
 
 #figure1 img{
@@ -150,7 +158,6 @@ article h4 {
    list-style-type: square;
  }
 
-
  .referencia {
    display: flex;
    flex-wrap: wrap;
@@ -161,14 +168,11 @@ article h4 {
    width: 40%;
    text-align: center;
    margin: auto;
-   
 }
 
 .referencia article img {
    border-radius: 50%;
-   border: solid 2px rgb(255, 255, 255);
-
-   
+   border: solid 2px rgb(255, 255, 255);  
 }
 
 .referencia article figcaption {
@@ -192,6 +196,7 @@ dl {
    display: flex;
    flex-wrap: wrap ;
 }
+
 dd, dt {
   flex-basis: 50%;
   margin: 0;
@@ -240,6 +245,7 @@ meter {
    filter: grayscale();
    filter: ;
 }
+
 .h5 {
    font-size: 20px;
    margin-top: 1px;
@@ -259,6 +265,5 @@ a {
    height: 20px;
    width: 900px;
    background-color: #ffffff;
-   margin: auto;
-   
+   margin: auto;  
 }
