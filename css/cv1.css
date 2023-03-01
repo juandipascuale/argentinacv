@@ -96,7 +96,7 @@ aside ul li{
 }
 
 
-/*....asaide formulario....*/
+/*......................asaide formulario....................*/
 
 #todo {
    box-sizing: border-box;
@@ -112,7 +112,7 @@ aside ul li{
    max-width: 90%;
    margin: auto;
    margin-top: 2%;
-   padding: 1px;
+   padding: 0px;
    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
    position: relative;
 
@@ -120,9 +120,8 @@ aside ul li{
 
 .formulario__titulo {
    text-align: center;
-   margin-top: 10;
+   padding-top: 6px;
    color: rgb(255,255,255);
-
 }
 
 .formulario__input, .formulario__label,
@@ -131,6 +130,7 @@ aside ul li{
    width: 90%;
    font-size: 1em;
    margin: auto;
+   color: #000000;
 
 }
 
@@ -141,7 +141,14 @@ aside ul li{
    border: 1px solid rgba(255, 255, 255, 0.5);
    margin-bottom: 35px;
    cursor: pointer;
+}
 
+.formulario__input:focus {
+   outline: 1px solid rgba(0,0,0,0.7);
+} 
+
+.formulario__input:focus + .formulario__label{
+   margin-top: -95px;
 }
 
 .formulario__label {
@@ -149,17 +156,23 @@ aside ul li{
    position: absolute;
    margin-top: -63px;
    z-index: 20px;
+   color: rgba(0,0,0,0.5);
+   transition: all 0.2ms;
+
 }
 
 .formulario__submit{
    background: rgba(0,0,0,0.3);
-   color: white;
+   color: rgb(255, 255, 255);
    padding: 10px;
    cursor: pointer;
    border: none;
 }
 
-/*......MAIN...... */
+.fijar {
+   margin-top: -95px;
+}
+/*............................MAIN......................... */
 
 main {
    background-color: #e1e1e1;
