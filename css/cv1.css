@@ -1,8 +1,4 @@
 /*......GENERAL.....*/
-body {
-   position: relative;
-   margin: 0px;
-}
 ul {
    list-style-type: none;
    text-align: left;
@@ -96,6 +92,71 @@ aside ul {
  
 aside ul li{
    text-align: right;
+   color: white;
+}
+
+
+/*....asaide formulario....*/
+
+#todo {
+   box-sizing: border-box;
+}
+
+#body_adaptado {
+   margin: 0px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.formulario {
+   width: 220px;
+   max-width: 90%;
+   margin: auto;
+   margin-top: 2%;
+   padding: 1px;
+   box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+   position: relative;
+
+}
+
+.formulario__titulo {
+   text-align: center;
+   margin-top: 10;
+   color: rgb(255,255,255);
+
+}
+
+.formulario__input, .formulario__label,
+.formulario__submit {
+   display: block;
+   width: 90%;
+   font-size: 1em;
+   margin: auto;
+
+}
+
+.formulario__input {
+   padding-top:  10px;
+   padding-bottom: 10px;
+   background: rgba(100,205,255,09);
+   border: 1px solid rgba(255, 255, 255, 0.5);
+   margin-bottom: 35px;
+   cursor: pointer;
+
+}
+
+.formulario__label {
+   padding-left: 10px;
+   position: absolute;
+   margin-top: -63px;
+   z-index: 20px;
+}
+
+.formulario__submit{
+   background: rgba(0,0,0,0.3);
+   color: white;
+   padding: 10px;
+   cursor: pointer;
+   border: none;
 }
 
 /*......MAIN...... */
